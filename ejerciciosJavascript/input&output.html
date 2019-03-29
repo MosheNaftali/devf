@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input & Output</title>
+</head>
+<body>
+    <h1>Input & Output</h1>
+    <script>
+        var mascota1 = prompt('¿Cual es el nombre de tu primer mascota?', 'Nombre de Mascota 1');
+        var mascota2 = prompt('¿Cual es el nombre de tu segunda mascota?', 'Nombre de Mascota 2');
+        console.log('Quiero mucho a mis mascotas ' + mascota1 + " y " + mascota2);
+        var resp = prompt('Que mascota deseas que se saque una ventana ¿1 o 2?');
+
+        //Aquí vamos a pedirle al usuario que escoja un numero de mascota para sacar el resultado en un alert
+        if(resp == 1){
+            alert('La mascota 1 se llama ' + mascota1);
+        }else if(resp == 2){
+            alert('La mascota 2 se llama ' + mascota2);
+        }else{
+            alert('No hay ' + resp + ' perros');
+        }
+    </script>
+</body>
+</html>

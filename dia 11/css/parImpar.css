@@ -1,0 +1,42 @@
+.contenedor{
+    width: 300px;
+    margin: 15px auto;
+    height: 180px;
+}
+.contenedor form{
+    width: 100%;
+}
+.contenedor form input[type="number"],
+.contenedor form input[type="button"]{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 23px;
+}
+.contenedor p{
+    font-size: 34px;
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+}
+input[type="number"],
+input[type="text"]{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    background: rgba(255, 255, 255, .7);
+    border: none;
+}
+input[type="button"]{
+    text-align: center;
+    background: #cf5c36b9;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+}

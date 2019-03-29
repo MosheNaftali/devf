@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+    background: #21295c;
+}
+.contenedor{
+    background: #eee5e9;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    align-content: center;
+}
+h1, p{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+form{
+    text-align: center;
+}
+input[type="number"],
+input[type="text"]{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+input[type="button"]{
+    margin-bottom: 20px;
+    text-align: center;
+    background: #cf5c36;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+}

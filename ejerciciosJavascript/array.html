@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        do{
+            var colores = Array();
+            var frutas = Array();
+            var nombres = Array();
+            var respuesta = prompt('¿Que deseas aumentar? 1-Colores. 2-Frutas. 3-Nombres');
+            switch(respuesta){
+                case '1': colores.push(prompt('Escribe un color'));
+                        break;
+                case '2': frutas.push(prompt('Escribe una fruta'));
+                        break;
+                case '3': nombres.push(prompt('Escribe un nombre'));
+                        break;        
+            }
+            var salir = prompt('¿Deseas salir? si/no');
+            salir.toLowerCase();
+        }while(salir == 'no');
+    </script>
+</body>
+</html>

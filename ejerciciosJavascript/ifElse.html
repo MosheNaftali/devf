@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>If Else</title>
+</head>
+<body>
+    <h1>Piedra, papel, tijera</h1>
+    <script>
+        var jugador1, jugador2, tecla, resultado;
+        var piedra = 'piedra';
+        var papel = 'papel';
+        var tijera = 'tijera';
+        do{
+            jugador1 = prompt("Jugador 1, que escoges ¿piedra, papel o tijera?");
+            jugador2 = prompt("Jugador 2, que escoges ¿piedra, papel o tijera?");
+            if(jugador1 == piedra){
+                if(jugador2 == piedra){
+                    resultado = 'Empate';
+                }else if(jugador2 == papel){
+                    resultado = 'Gana Jugador 2';
+                }else if(jugador2 == tijera){
+                    resultado = 'Gana Jugador 1';
+                }
+            }else if(jugador1 == papel){
+                if(jugador2 == piedra){
+                    resultado = 'Gana Jugador 1';
+                }else if(jugador2 == papel){
+                    resultado = 'Empate';
+                }else if(jugador2 == tijera){
+                    resultado = 'Gana Jugador 2';
+                }
+            }else if(jugador1 == tijera){
+                if(jugador2 == piedra){
+                    resultado = 'Gana Jugador 2';
+                }else if(jugador2 == papel){
+                    resultado = 'Gana Jugador 1';
+                }else if(jugador2 == tijera){
+                    resultado = 'Empate';
+                }
+            }else if((jugador1 || jugador2) != ((piedra)||(papel)||(tijera))){
+                resultado = 'Un dato no es correcto';
+            }
+            alert(resultado);
+            tecla = prompt("¿Desean jugar otra vez? si/no");
+        }while(tecla == 'si');
+    </script>
+</body>
+</html>

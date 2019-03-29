@@ -1,0 +1,32 @@
+article form{
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    border: 5px solid #fff;
+    padding: 15px;
+}
+article form input[type="text"],
+article form input[type="email"]{
+    width: 33%;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; 
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+article form input[type="button"]{
+    margin-top: 10px; 
+    width: 100%;
+    background: #65abc6;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    height: 100%;
+    color:#fff;
+    font-size: 30px;
+    padding: 15px;
+}
+article form input[type="button"]:hover{
+    transition: .75s;
+    background: #4b8196;
+}

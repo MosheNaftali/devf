@@ -1,0 +1,21 @@
+body{
+    background: #3e456f;
+    font-family: 'Google Sans', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+.contenedor{
+    height: 380px;
+    margin: 10px auto; 
+    background: #6672b8;
+    text-align: center;
+}
+.contenedor input[type="number"],
+.contenedor button{
+    display: block;
+    width: 100%;
+}
+.contenedor p{
+    font-size: 128px;
+}

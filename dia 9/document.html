@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .tarjeta{
+            width: 300px;
+            height: 400px;
+            margin: 50px;
+            padding: 10px;
+            border: 2px solid #000;
+        }
+        .invisible{
+            display: none
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola</h1>
+    <input type="text" placeholder="Nombre" id="name">
+    <input type="email" placeholder="Email" id="email">
+    <input type="text" placeholder="Edad" id="edad">
+    <input type="button" value="Poner" id="button">
+    <input type="reset" value="Restaurar">
+    <div class="tarjeta invisible" id="tarjeta">
+            <h1 id="mostrarNombre"></h1>
+            <h1 id="mostrarEmail"></h1>
+            <h1 id="mostrarEdad"></h1>
+    </div>
+    <script src="document.js"></script>
+</body>
+</html>

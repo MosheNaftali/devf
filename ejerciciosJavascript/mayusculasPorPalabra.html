@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mayuscula por Palabra</title>
+</head>
+<body>
+    <script>
+        var string = prompt('Escribe una oración');
+        string = string.slice(0,string.length).toLowerCase();
+        var total = string.charAt(0).toUpperCase();
+        for (var i = 1; i<string.length; i++){
+            if(string.charAt(i)== ' '){
+                var mayus = string.charAt(i+1).replace(string.charAt(i+1),  string.charAt(i+1).toUpperCase());
+                total = total + ' ' + mayus;
+            }else{
+                total = total + string.charAt(i)
+            }
+        }
+        console.log(total);
+    </script>
+</body>
+</html>

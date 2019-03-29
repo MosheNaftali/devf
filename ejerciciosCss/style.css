@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(img/bg.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 200px;
+    text-align: right;
+    padding: 20px;
+}
+header nav a{
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30pt;
+    text-decoration: none;
+    margin: 0 20px;
+    border-bottom: 1px solid transparent; 
+}
+header nav a:hover{
+    border-bottom: 1px solid #fff;
+}
+.imagen{
+    text-align: center;
+}
+.imagen img{
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.2);
+    width: 100px;
+    margin-top: -55px;
+}
+h1{
+    text-align: center;
+}
+h3,p,li{
+    font-family: 'Felipa', sans-serif;
+    margin: 1px 10px;
+}
+.contenedor{
+    background: url(img/cover.jpg);
+    background-size: cover;
+}
+.contenedor a{
+    text-decoration: none;
+    color: #08EDE6;
+}
+.contenedor a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    margin: 1px 10px;
+    padding: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #FFDB71;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32pt;
+}
+h3{
+    color: #629460;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p, li{
+    font-size: 16pt;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+}
+.contenedor .educacion{
+    border: 2px solid #fff; 
+    margin: 0 100px;
+    padding: 30px;
+}

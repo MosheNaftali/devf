@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Numeros Perfectos 1</title>
+</head>
+<body>
+    <script>
+        debugger
+        var almacenado = 0;
+        for(var i = 5000; i >= 1; i--){
+            for(var j = 1; j < i; j++){
+                if(i % j == 0 && i!= j){
+                    almacenado += j;
+                    // debugger;
+                }
+            }
+            if(almacenado == i){
+                console.log('El número ' + i + ' es un número perfecto');
+            }else{
+                console.log('El número ' + i + ' no es un número perfecto');
+            }
+            almacenado = 0;
+        }
+    </script>
+</body>
+</html>

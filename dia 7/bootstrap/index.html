@@ -1,0 +1,143 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+        <nav class="bg-dark nav-justified">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <img src="descarga.jfif" height="43" alt="">
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container espacio">
+        <h1>Soy un container</h1>
+    </div>
+    <div class="container-fluid espacio">
+        <h1>Soy un container fluid</h1>
+    </div>
+    <div class="container-fluid espacio">
+        <div>
+            <h2>Paisaje</h2>
+        <img src="bg.jpg" alt="" class="img-thumbnail thumb">
+        <img src="bg.jpg" alt="" class="img-fluid rounded thumb">
+
+        <img src="bg.jpg" alt="" class="img-thumbnail float-right thumb">
+        <img src="bg.jpg" alt="" class="img-thumbnail float-left thumb">
+    </div>
+        <div class="text-center">
+            <h2>Gato</h2>
+            <img class="img-fluid rounded-circle thumb" src="gato-961810f0016f725a96537f67bc3b6f8c-1200x800.jpg" alt="">
+        </div>
+    </div>
+    <div class="container">
+            <div class="card" style="width: 18rem;">
+                    <img src="bg.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+            <div class="col-md-2">
+                YO SOY DOS COLUMNAS
+            </div>
+        </div>
+        <br>
+        <div class="row">
+                <div class="col-md-6 col-sm-12">
+                   YO SOY DOS COLUMNAS
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    YO SOY DOS COLUMNAS
+                </div> 
+        </div>
+        <br>
+        <div class="row">
+                <div class="col-6">
+                   YO SOY DOS COLUMNAS
+                </div>
+                <div class="col-6">
+                    YO SOY DOS COLUMNAS
+                </div> 
+        </div>
+    </div>
+    <div class="container espacio">
+        <form action="">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Nombre">
+                <input class="form-control" type="email" placeholder="Correo">
+                <input class="form-control" type="number" placeholder="Teléfono">
+                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+    
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>
+       <!-- El nombre de data-toggle y data-targer, debe de ser igual al principio de la clase del modal y del id -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="bg.jpg" alt="" class="float-left thumb">
+              <img src="gato-961810f0016f725a96537f67bc3b6f8c-1200x800.jpg" alt="" class="float-right thumb">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
