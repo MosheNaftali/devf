@@ -1,4 +1,4 @@
-// let ayudante_de_santa = {
+y// let ayudante_de_santa = {
 //     nombre:"Ayudante de santa",
 //     raza:"Galgo",
 //     color: "Cafe",

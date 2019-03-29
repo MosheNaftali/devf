@@ -18,7 +18,7 @@ class cuenta{
         dinero = this.cantidad - dinero;
         if(dinero>900 || dinero < 10){
             console.log("Lo siento, no se puede realizar el retiro")
-            console.log(`El dinero en caja es ${this.cantidad}`);
+            console.lo g(`El dinero en caja es ${this.cantidad}`);
         }else{
             console.log(`Retiro aprobado, el dinero en caja es de ${dinero}`)
         }
