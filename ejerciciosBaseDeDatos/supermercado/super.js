@@ -21,22 +21,6 @@ const articuloSchema = new Schema({
         default: 10
     }
 },{timestamps:true});
-const ticketSchema = new Schema({
-    ticket: mongoose.Schema.ObjectId,
-    subtotal:{
-        type: Number,
-        default: 0
-    },
-    iva:{
-        type: Number,
-        default: 0
-    },
-    total:{
-        type: Number,
-        default: 0
-    },
-    articulos:{}
-},{timestamps:true})
 // const superSchema = new Schema({
 //     articulo:{
 //         name:String,
@@ -51,3 +35,4 @@ const ticketSchema = new Schema({
 //     }
 // },{timestamps:true})
 
+module.exports = mongoose.model('Articulos', articuloSchema)

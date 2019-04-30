@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    background: #000;
+    padding: 15px;
+}
+.headerLi{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.headerLi .headerLinks{
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerLi .headerLinks:hover{
+    text-decoration: underline;
+}

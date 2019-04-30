@@ -22,7 +22,7 @@ const ticketSchema = new Schema({
     },
     articulos:[{
         type: mongoose.Schema.ObjectId,
-        ref: 'Articulo',
+        ref: 'Articulos',
         required: true
     }]
 },{timestamps:true})

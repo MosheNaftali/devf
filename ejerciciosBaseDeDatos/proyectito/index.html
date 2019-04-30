@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Funcional</title>
+</head>
+<body>
+    <form method="POST" action="/enviarDatos">
+        <input type="text" name="clientName"  placeholder="Nombre" required>
+        <input type="email" name="clientEmail"  placeholder="Email" required>
+        <input type="text" name="clientNumber" placeholder="Teléfono">
+        <textarea name="subject" placeholder="Asunto"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <p id="respuesta"></p>
+    <a href="/verDatos">Ver todos los datos</a>
+    <p>Modificar datos</p>
+    <form method="PUT" action="/modificarDatos">
+        <input type="text" name="clientName"  placeholder="Nombre" required>
+        <input type="email" name="clientEmail"  placeholder="Email" required>
+        <input type="text" name="clientNumber" placeholder="Teléfono">
+        <textarea name="subject" placeholder="Asunto"></textarea>
+        <input type="submit" value="Modificar">
+    </form>
+</body>
+</html>
